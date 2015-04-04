@@ -122,10 +122,10 @@ void processNormalKeys(unsigned char key, int x, int y) {
 void processSpecialKeys(int key, int x, int y) {
     switch (key) {
         case GLUT_KEY_UP:
-            ROTATION_SPEED += 0.1;
+            ROTATION_SPEED += 0.5;
             break;
         case GLUT_KEY_DOWN:
-            ROTATION_SPEED -= 0.1;
+            ROTATION_SPEED -= 0.5;
             break;
         default:
             break;
